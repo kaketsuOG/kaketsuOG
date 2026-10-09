@@ -51,10 +51,10 @@
 **Cloud y herramientas**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,vercel,docker,git,github,postman" alt="Cloud y herramientas"/>
+  <img src="https://skillicons.dev/icons?i=aws,vercel,git,github,postman" alt="Cloud y herramientas"/>
 </p>
 
-**También trabajo con:** Odoo (módulos POS, inventario y compras) · Jetpack Compose · Zustand · IndexedDB · JWT · Prisma · Sequelize · Chart.js · jsPDF · comunicación serial/USB con terminales de pago
+**También trabajo con:** Odoo 12, 16 y 18 (módulos POS, inventario y compras) · Jetpack Compose · Zustand · IndexedDB · JWT · Prisma · Sequelize · Chart.js · jsPDF · comunicación serial/USB con terminales de pago
 
 ## En qué trabajo actualmente
 
@@ -77,7 +77,6 @@ Aplicaciones locales que conectan el punto de venta (Odoo POS o autoservicio) co
 
 ### 🖥️ Autoservicio (tótems)
 - **Autoservicio Getit** — Tótem de autoatención en Android con pago integrado en el mismo equipo. *Android nativo (app de autoservicio + servicios locales de proxy y pago)*
-- **Tótem Dandi's** — Autoservicio web para pedidos en local, desplegado con Docker y Nginx. *React · React Query · Docker*
 
 ### 📦 App de Conteo de Stock
 App Android nativa para conteos de inventario con pistola lectora de códigos de barra. Descarga el catálogo desde Odoo, consolida cantidades por SKU y sincroniza los resultados; funciona offline y reenvía los conteos pendientes al recuperar conexión.
@@ -88,16 +87,28 @@ Sistema de pantallas de cocina que recibe los pedidos del POS y los muestra en c
 *Node.js · Express · SQLite · Electron*
 
 ### 🧩 Módulos para Odoo
-Desarrollo y adaptación de módulos para distintos clientes:
+Módulos que he desarrollado, en versiones de Odoo 12, 16 y 18:
 
-| Área | Módulos |
-| --- | --- |
-| **Pagos en POS** | Integración con BCI, Getnet, Klap, Transbank y Mercado Pago |
-| **Punto de venta** | Cupones, crédito/fiado, clave para cajón de dinero, verificador de precios, POS offline |
-| **Reportes de caja** | Informe de recaudación, Z por fondo de venta, cierre de caja |
-| **Inventario** | Conteo con escáner desde el POS, ajustes de inventario |
-| **Compras** | Descuentos, último precio de compra, ticket térmico, bodega por usuario |
-| **Autoservicio** | Módulo de tótem self-service |
+| Área | Módulo | Qué hace |
+| --- | --- | --- |
+| **Pagos en POS** | `pos_bci_payment` | Pago con terminal BCI POS Integrado (Odoo 12 y 16) |
+| | `pos_getnet_payment` | Pago con terminal Getnet POS Integrado |
+| | `pos_klap` | Pago con Smart POS de Klap |
+| | `pos_transbank_integration` | Pago con terminal Transbank |
+| | `pos_mercadopago` | Pago con Mercado Pago (Odoo 16 y 18) |
+| **Delivery** | `pos_pedidosya` | Recepción de pedidos de PedidosYa en el POS |
+| | `pos_rappi` | Recepción de pedidos de Rappi en el POS |
+| **Punto de venta** | `pos_credito_fiado` | Ventas a crédito (fiado) por cliente |
+| | `pos_cupones` | Cupones de descuento en el POS |
+| | `pos_yl_coupons` | Cupones personalizados para un cliente |
+| | `verificador_precios` | Verificador de precios para consulta en tienda |
+| **Reportes de caja** | `pos_informe_recaudacion` | Informe de recaudación por caja |
+| | `pos_z_fondo_venta` | Informe Z por fondo de venta |
+| **Inventario** | `stock_pos_scan` | Conteo de stock con escáner, conectado a la app de Conteo de Stock |
+| **Compras** | `purchase_last_price_range` | Último precio de compra por rango |
+| | `purchase_thermal_ticket` | Impresión de compras en ticket térmico |
+| | `purchase_user_warehouse` | Bodega de compra asignada por usuario |
+| **Integraciones** | `transve_praxedo` | Integración de Odoo con Praxedo |
 
 ## Otros proyectos
 
