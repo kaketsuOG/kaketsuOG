@@ -1,6 +1,10 @@
-<h1 align="center">Hola, soy Sebastián Espinoza 👋</h1>
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:714B67&height=210&section=header&text=Sebasti%C3%A1n%20Espinoza&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Ingeniero%20Civil%20Inform%C3%A1tico%20%C2%B7%20Desarrollador%20Full-Stack&descSize=17&descAlignY=57" alt="Sebastián Espinoza · Ingeniero Civil Informático · Desarrollador Full-Stack"/>
+</p>
 
-<h3 align="center">Ingeniero Civil Informático · Desarrollador Full-Stack</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&height=40&lines=Puntos+de+venta+y+autoservicio;Integraciones+de+pago+para+POS;M%C3%B3dulos+para+Odoo+12%2C+16+y+18;Apps+Android+offline-first" alt="Puntos de venta, integraciones de pago, módulos Odoo y apps Android"/>
+</p>
 
 <p align="center">
   Titulado de la Universidad Católica del Maule (Talca, Chile).<br/>
@@ -132,4 +136,8 @@ Plataforma web para la gestión de maquinaria con Node.js, React y MySQL: invent
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=kaketsuOG&show_icons=true&hide_border=true&theme=tokyonight&locale=es" alt="Estadísticas de GitHub"/>
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaketsuOG&layout=compact&hide_border=true&theme=tokyonight&locale=es" alt="Lenguajes más usados"/>
+</p>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:714B67,50:1f6feb,100:0d1117&height=110&section=footer" alt=""/>
 </p>
